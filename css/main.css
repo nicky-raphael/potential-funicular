@@ -38,10 +38,11 @@ body {
 .teks {
   position: absolute;
   color: #fff;
-  font-size: 2rem;
+  font-size: 10px;
   font-weight: 500;
   left: 5%;
-  top: 5%;
+  top: 10%;
+  margin-right: 0%;
 }
 
 .flowers {
@@ -1328,6 +1329,13 @@ body {
     transform: scale(0);
   }
 }
+@media screen and (max-width:800px){
+  .teks {
+  font-size: 5px;
+  margin-right: 60%;
+  }
+}
+
 .container * {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
